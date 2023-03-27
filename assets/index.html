@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Amazing Events</title>
+    <link rel="shortcut icon" href="./images/LogoAmazingEvents.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1ade54c094.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="col-12">
+    <img class="imgnav" src="./images/LogoAmazingEvents.png" alt="logo-de-la-img">
+    <nav>
+        <a class="buta" href="#">Home</a>
+        <a class="buta" href="./pages/upcomingEvents.html">Upcoming Events</a>
+        <a class="buta" href="./pages/pastEvents.html">Past Events</a>
+        <a class="buta"  href="./pages/contact.html">Contact Us</a>
+        <a class="buta" href="./pages/stats.html">Stats</a>
+    </nav>
+</header>
+
+  <div id="carouselExample" class="carousel slide centrar">
+    <div class="carousel-inner alto d-flex justify-content-center align-items-center">
+      <div class="carousel-item active marginCero ">
+        <a class="anchorcarro" href="#">Home</a>
+      </div>
+      <div class="carousel-item marginCero ">
+        <a class="anchorcarro" href="./pages/upcomingEvents.html">Upcoming Events</a>
+      </div>
+      <div class="carousel-item marginCero ">
+        <a class="anchorcarro" href="./pages/pastEvents.html">Past Events</a>
+      </div>
+      <div class="carousel-item marginCero ">
+        <a class="anchorcarro" href="./pages/contact.html">Contact Us</a>
+      </div>
+      <div class="carousel-item marginCero ">
+        <a class="anchorcarro" href="./pages/stats.html">Stats</a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<main class="mainindex">
+
+<div class="formcontain">
+  <form action="#" method="get" class="form1">
+      <input type="checkbox" name="category" id="check">
+      <label for="check">Food Fair</label>
+      <input type="checkbox" name="check">
+      <label for="check">Museum</label>
+      <input type="checkbox" name="check">
+      <label for="check">Costume Party</label>
+      <input type="checkbox" name="check">
+      <label for="check">Music Concert</label>
+      <input type="checkbox" name="check">
+      <label for="check">Race</label>
+      <input type="checkbox" name="check">
+      <label for="check">Book Exchange</label>
+      <input type="checkbox" name="check">
+      <label for="check">Let's go to the cinema</label>
+  </form>
+
+  <form action="#" class="form2">
+    <input type="search" name="search" id="sr" placeholder="Search..." class="search">
+    <button class="btn lupa btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal "></i></button>
+  </form>
+</div>
+
+<section class="cards-content d-flex justify-content-around flex-wrap">
+
+  <div id="1" class="card d-flex justify-content-center m-2" style="width: 18rem">
+    <img src="./images/Feria-de-comidas7.jpg" class="card-img-top p-1" alt="Food" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center">
+      <h5 class="card-title">Festival of the collectivities</h5>
+      <p class="card-text">Food Fair</p>
+      <div class=" d-flex flex-row justify-content-between">
+        <p>Price: 5 </p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="2" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/Salida-al-museo5.jpg" class="card-img-top p-1" alt="Dinosaurs" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">Jurassic Park</h5>
+      <p class="card-text">Museum</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 15 </p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="3" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/Fiesta-de-disfraces1.jpg" class="card-img-top p-1" alt="Costumes" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">Halloween Night</h5>
+      <p class="card-text">Costume Party</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 12</p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="4" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/Concierto-de-musica1.jpg" class="card-img-top p-1" alt="Concert" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">Metallica in concert</h5>
+      <p class="card-text">Music Concert</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 150</p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="5" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/Maraton3.jpg" class="card-img-top p-1" alt="Marathon" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">10K for life</h5>
+      <p class="card-text">Soccer Field</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 3</p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="6" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/books.jpg" class="card-img-top p-1" alt="Books" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">School Book Fair</h5>
+      <p class="card-text">Book Exchange</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 1</p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="7" class="card d-flex justify-content-center m-2" style="width: 18rem;">
+    <img src="./images/Cine7.jpg" class="card-img-top p-1" alt="Cinema" style="width:18rem; height: 10rem;">
+    <div class="card-body d-flex flex-column justify-content-center ">
+      <h5 class="card-title">Avengers</h5>
+      <p class="card-text">Let's go to the cinema</p>
+      <div class="d-flex flex-row justify-content-between">
+        <p>Price: 250</p>
+        <a href="./pages/details.html" class="btn vermas btn-primary">See more..</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+</main>
+
+<footer>
+  <div class="redescont">
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
+    <a href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i></a>
+  </div>
+  <p class="text1">COHORT 46</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
+</html>

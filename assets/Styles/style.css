@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 14vh;
+    background: url(../images/champagner-1071356.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.imgnav{
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+    background-color: #000000de;
+    border-radius: 10% 2% 30% 0;
+    border: 1.3px solid #ffffff;
+    margin: .7rem 0 0 .7rem;
+}
+
+nav{
+    width: 42vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 1.5s;
+    margin: 0 .5rem 0 0;
+}
+
+
+.buta{
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #ffffff;
+    width: 7rem;
+    height: 3rem;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition: 1.4s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buta:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 1.4s;
+    font-size: 1.2rem;
+    padding: .2rem
+}
+
+.centrar{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 20vh !important;
+    background: url(../images/champagner-1071356.jpg)no-repeat;
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center !important;
+}
+
+.alto{
+    width: 30vh !important;
+}
+
+.marginCero{
+    width: auto !important;
+    margin: 0px !important;
+    
+}
+
+.anchorcarro{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+    background-color: #000000d6;
+    border-radius: 20%;
+    padding: .4rem;
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.formcontain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #100612e3;
+}
+
+.form1{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search{
+    border: 1px solid #000000a0;
+    border-radius: 10%;;
+}
+
+.lupa{
+    background-color: #000 !important;
+    border: 1.4px solid #d207ed;
+}
+
+input, label{
+    padding: .5rem;
+    color: #fff;
+}
+
+.cards-content{
+    width: 100%;
+    height: 120vh;
+    background-color: #720404e4;
+    background: url(../images/champagner-1071356.jpg)no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card{
+    background-color: #fffefe;
+    color: #000000;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.cardprice{
+    width: 90%;
+    height: 18%;
+}
+
+.vermas{
+    box-shadow: -5px -3px 5px 0px rgba(0,0,0,0.75);
+    background-color: #ffffff;
+    border: 1px solid #0000009e;
+    color: #000;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #000000e0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redescont{
+    width: 30%;
+    height: 10vh;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1{
+    color:#fff;
+    font-size: 2.5rem;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.maincontact{
+    width: 100%;
+    height: 70vh;
+    background-color: #00000039;
+}
+
+.formcontact1{
+    background-color: #000000a0;
+    color: #000;
+    width: 40vw;
+}
+
+.msj1{
+    height: 19vh;
+}
+
+.btnsubmit{
+    display: flex;
+    align-self: flex-end;
+    background-color: #fff;
+    color: #000;
+}
+
+.mainstast{
+    width: 100%;
+    height: 70vh;
+    background-color: #aba8a8;
+}
+
+table{
+    height: 60vh;
+    width: 70vw;
+    border: 2px solid #000;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+
+th{
+    background-color: #6e6e6e;  
+    height: 2rem;  
+}
+
+td{
+    border: 1px solid #000;
+    padding: 0;
+    font-size: 1rem;
+    height: .4rem;
+}
+
+.maindetails{
+    width: 100%;
+    height: 76vh;
+    background-color: #cccbcb;
+}
+
+.secdet{
+    width: 70%;
+    height: 70%;
+    border: 2px solid #000;
+}
+
+.imgdetails, .textdet{
+    width: 25rem;
+    height: 24rem;
+    border: 4px solid #545151;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+    header{
+        width: 100%;
+        height: 8vh;
+    }
+
+    .imgnav{
+        width: 2.5rem;
+        height: 1.6rem;
+        padding: .4rem;
+        margin: .2rem;
+    }
+    
+    nav{
+        width: 100%;
+    }
+
+    .buta{
+        width: 3rem;
+        height: 2rem;
+        font-size: .5rem;
+        border-radius: 5%;
+    }
+
+    .mainindex{
+        width: 100%;
+        height: 400vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formcontain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 45vh;
+        font-size: .5rem;
+        margin: 0;
+        justify-content: center;
+    }
+
+    .form1{
+        width: 100%;
+        height: 90%;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;  
+    }
+
+    .form2{
+        height: 10%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    label{
+        width:25%;
+        height: 2rem;
+        text-align: center;
+        font-size: .8rem;
+        margin: 0;
+        padding: 0;
+        }
+
+    input{
+        width: 20%rem;
+        height: 2rem;
+    }
+
+    .search{
+        justify-self: center;
+        width: 10rem;
+        height: 1.8rem;
+    }
+
+    .lupa{
+        font-size: .4rem;
+    }
+
+    .cards-content{
+        height: 367vh;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .redescont{
+        font-size: 1.5rem;
+    }
+    .text1{
+        font-size: 1.3rem;
+        padding: .4rem;
+    }
+
+    .maincontact{
+        width: 100%;
+        background: url(../images/Titanium.jpg);
+    }
+    
+    .mainstast{
+        height: 80vh;
+        background: url(../images/Titanium.jpg);
+    }
+
+    .formcontact1{
+        width: 98%; 
+    }
+
+    table{
+        width: 99%;
+    }
+
+    td{
+        font-size: .8rem;
+    }
+
+    .maindetails{
+        width: 100%;
+        height: 100vh;
+        background: url(../images/Titanium.jpg);
+    }
+    .secdet{
+        width: 98%;
+        height: 90vh;
+        flex-direction: column;
+    }
+
+    .imgdetails{
+        width: 70%;
+        height: 40%;
+    }
+    .textdet{
+        width: 80%;
+        height: 80%;
+        background-color: #ffffffb1;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1499px){
+    nav{
+        width: 70%;
+    }
+    .imgnav{
+        width: 25%;
+    }
+    .buta{
+        width: 12rem;
+        padding: .2rem
+    }
+    .mainindex{
+        height: 225vh;
+    }
+    .formcontain{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 25vh;
+        font-size: .5rem;
+        margin: 0;
+        justify-content: center;
+    }
+    
+    .form1{
+        width: 100%;
+        height: 70%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;  
+        font-size: .9rem;
+        flex-wrap: wrap;
+    }
+
+    .cards-content{
+        height: 200vh;
+    }
+
+    .text1{
+        font-size: 1rem;
+    }
+
+    .maincontact, .mainstast{
+        background: url(../images/Titanium.jpg);
+    }
+
+    .formcontact1{
+        width: 60%;
+    }
+
+    .mainstast{
+    height: 90vh;
+    }
+    
+    .maindetails{
+    height: 90vh;
+    background: url(../images/Titanium.jpg);
+    }
+
+    .secdet{
+    width: 85%;
+    height: 85%;
+    }
+
+    .imgdetails{
+    width: 15rem;
+    height: 15rem;
+    }
+
+    .textdet{
+    background-color: #fff;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 4000px){
+
+    .form1{
+        font-size: 1.5rem;
+    }
+
+    .cards-content{
+        height: 85vh;
+    }
+}
+
+
+
