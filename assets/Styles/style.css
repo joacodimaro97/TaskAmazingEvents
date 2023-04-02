@@ -4,96 +4,23 @@
     box-sizing: border-box;
 }
 
-header{
-    width: 100%;
-    height: 14vh;
-    background: url(../images/champagner-1071356.jpg)no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: space-between;   
-}
 
-.imgnav{
-    width: 10rem;
-    height: 4rem;
-    padding: 1rem;
-    background-color: #000000de;
-    border-radius: 10% 2% 30% 0;
-    border: 1.3px solid #ffffff;
-    margin: .7rem 0 0 .7rem;
-}
-
-nav{
-    width: 42vw;
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    transition: 1.5s;
-    margin: 0 .5rem 0 0;
+.navbar{
+  background: #0f053fa2 !important;
 }
 
 
-.buta{
-    color: #000000;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 1rem;
-    background-color: #ffffff;
-    width: 7rem;
-    height: 3rem;
-    border-bottom-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    transition: 1.4s;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.buta:hover{
-    background-color: #000000;
-    color: #fff;
-    transition: 1.4s;
+.nav-link{
     font-size: 1.2rem;
-    padding: .2rem
+    color: #fff;
+    font-family: sans-serif;
 }
 
-.centrar{
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    height: 20vh !important;
-    background: url(../images/champagner-1071356.jpg)no-repeat;
-    background-position:center;
-    background-size: cover;
-    background-attachment: fixed;
-    text-align: center !important;
-}
 
-.alto{
-    width: 30vh !important;
-}
 
-.marginCero{
-    width: auto !important;
-    margin: 0px !important;
-    
-}
 
-.anchorcarro{
-    text-decoration: none;
-    font-size: 2rem;
-    color: #ffffff;
-    background-color: #000000d6;
-    border-radius: 20%;
-    padding: .4rem;
-    font-family: 'Libre Baskerville', serif;
-font-family: 'Open Sans', sans-serif;
+h1{
+    background-color: transparent;
 }
 
 .formcontain{
@@ -124,6 +51,16 @@ font-family: 'Open Sans', sans-serif;
 input, label{
     padding: .5rem;
     color: #fff;
+}
+
+.label1{
+    font-size: 1rem;
+}
+
+fieldset{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .cards-content{
@@ -174,14 +111,14 @@ footer{
 
 .text1{
     color:#fff;
-    font-size: 2.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .maincontact{
     width: 100%;
-    height: 70vh;
+    height: 82.5vh;
     background-color: #00000039;
 }
 
@@ -204,7 +141,7 @@ footer{
 
 .mainstast{
     width: 100%;
-    height: 70vh;
+    height: 82.5vh;
     background-color: #aba8a8;
 }
 
@@ -220,6 +157,7 @@ table{
 th{
     background-color: #6e6e6e;  
     height: 2rem;  
+    padding-left: 1.2rem;
 }
 
 td{
@@ -227,6 +165,7 @@ td{
     padding: 0;
     font-size: 1rem;
     height: .4rem;
+    padding-left: 1.6rem;
 }
 
 .maindetails{
@@ -236,7 +175,7 @@ td{
 }
 
 .secdet{
-    width: 70%;
+    width: 60%;
     height: 70%;
     border: 2px solid #000;
 }
@@ -251,29 +190,37 @@ td{
 
 
 
-@media screen and (min-width: 320px) and (max-width: 600px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     header{
         width: 100%;
         height: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 45vh;
     }
 
     .imgnav{
-        width: 2.5rem;
-        height: 1.6rem;
+        width: 6rem;
+        height: 3rem;
         padding: .4rem;
         margin: .2rem;
+        align-content: center;
     }
     
-    nav{
+    .navbar{
         width: 100%;
-    }
+        height: 85%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
 
-    .buta{
-        width: 3rem;
-        height: 2rem;
-        font-size: .5rem;
-        border-radius: 5%;
     }
+.nav-link{
+    text-align: center;
+    background-color: #0000006d;
+    font-size: 1.8rem;
+}
 
     .mainindex{
         width: 100%;
@@ -286,7 +233,7 @@ td{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 45vh;
+        height: 80vh;
         font-size: .5rem;
         margin: 0;
         justify-content: center;
@@ -296,6 +243,7 @@ td{
         width: 100%;
         height: 90%;
         margin: 0;
+        font-size: .9rem;
         flex-direction: column;
         align-items: center;
         flex-wrap: wrap;
@@ -303,23 +251,26 @@ td{
     }
 
     .form2{
-        height: 10%;
+        height: 30%;
         width: 100%;
-        margin: 0;
+        margin: 1rem;
         padding: 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        align-items: flex-end;
     }
 
     label{
-        width:25%;
+        width:80%;
         height: 2rem;
         text-align: center;
         font-size: .8rem;
         margin: 0;
         padding: 0;
         }
-
+.label1{
+    font-size: 1.2rem;
+}
     input{
         width: 20%rem;
         height: 2rem;
@@ -327,12 +278,20 @@ td{
 
     .search{
         justify-self: center;
-        width: 10rem;
-        height: 1.8rem;
+        width: 8rem;
+        height: 3.2rem;
+        font-size: 1.5rem;
     }
 
+
+
+.btn-lupa{
+    width: 10rem;
+    height: 3.5rem;
+}
+}
     .lupa{
-        font-size: .4rem;
+        font-size: 1.5rem;
     }
 
     .cards-content{
@@ -341,10 +300,14 @@ td{
 
     footer{
         width: 100%;
+        flex-direction: column;
+        height: 30vh;
     }
 
     .redescont{
-        font-size: 1.5rem;
+        font-size: 5rem;
+        width: 100%;
+        height: 70%;
     }
     .text1{
         font-size: 1.3rem;
@@ -357,20 +320,21 @@ td{
     }
     
     .mainstast{
-        height: 80vh;
+        height: 90vh;
         background: url(../images/Titanium.jpg);
     }
 
     .formcontact1{
-        width: 98%; 
+        width: 88%; 
     }
 
     table{
-        width: 99%;
+        width: 88%;
     }
 
-    td{
+    td, th{
         font-size: .8rem;
+        padding-left: .3rem;
     }
 
     .maindetails{
@@ -379,7 +343,7 @@ td{
         background: url(../images/Titanium.jpg);
     }
     .secdet{
-        width: 98%;
+        width: 60%;
         height: 90vh;
         flex-direction: column;
     }
@@ -393,12 +357,23 @@ td{
         height: 80%;
         background-color: #ffffffb1;
     }
+
+
+    @media screen and (min-width: 768px) and (max-width: 1440px){
+    .navbar{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+.div-nav{
+    width: 100%;
+    flex-direction: row;
+    justify-content: center !important;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1499px){
-    nav{
-        width: 70%;
-    }
+
     .imgnav{
         width: 25%;
     }
@@ -406,6 +381,16 @@ td{
         width: 12rem;
         padding: .2rem
     }
+
+.navbar-nav{
+    background-color: #040436aa !important;
+    display: flex;
+    flex-direction: row;
+}
+.ul{
+    border: 2px solid red;
+}
+
     .mainindex{
         height: 225vh;
     }
@@ -423,14 +408,36 @@ td{
         width: 100%;
         height: 70%;
         margin: 0;
+        flex-direction: row;
         align-items: center;
         justify-content: center;  
         font-size: .9rem;
         flex-wrap: wrap;
     }
 
+    .form2{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 1rem;
+    }
+
+
+    fieldset{
+    width: 30%;
+    }
+     
+    .lupa{
+        width: 20%;
+    }
+    
+    .search{
+        width: 20%;
+        font-size: 1.4rem;
+    }
+
     .cards-content{
-        height: 200vh;
+        height: 135vh;
     }
 
     .text1{
@@ -467,18 +474,49 @@ td{
     .textdet{
     background-color: #fff;
     }
-}
-
-@media screen and (min-width: 1500px) and (max-width: 4000px){
-
-    .form1{
-        font-size: 1.5rem;
+    
+    footer{
+        width: 100%;
+        flex-direction: row;
+        height: 25vh;
+        align-items: center;
     }
 
-    .cards-content{
-        height: 85vh;
+    .redescont{
+        font-size: 3rem;
+        height: 50%;
+        width: 50%;
     }
+
+
 }
 
+
+@media (min-width: 1441px){
+    .formcontain{
+    width: 100%;
+    }
+
+fieldset{
+    width: 40%;
+    align-items: center;
+}
+.label1{
+    font-size: 1.2rem;
+}
+.cards-content{
+    height: 100vh;
+}
+
+footer{
+    height: 15vh;
+    flex-direction: row;
+    justify-content: center;
+}
+.redescont{
+    width: 70%;
+    font-size: 3rem;
+}
+}
 
 

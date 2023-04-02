@@ -11,46 +11,35 @@
     <link rel="stylesheet" href="../Styles/style.css">
 </head>
 <body>
-  <header class="col-12">
-    <img class="imgnav" src="../images/LogoAmazingEvents.png" alt="logo de la img">
-    <nav>
-        <a class="buta" href="../index.html">Home</a>
-        <a class="buta" href="../pages/upcomingEvents.html">Upcoming Events</a>
-        <a class="buta" href="../pages/pastEvents.html">Past Events</a>
-        <a class="buta"  href="./contact.html">Contact Us</a>
-        <a class="buta" href="#">Stats</a>
-    </nav>
-</header>
-
-<div id="carouselExample" class="carousel slide centrar">
-    <div class="carousel-inner alto d-flex justify-content-center align-items-center">
-      <div class="carousel-item active marginCero ">
-        <a class="anchorcarro" href="#">Stats</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="../index.html">Home</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./upcomingEvents.html">Upcoming Events</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./pastEvents.html">Past Events</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./contact.html">Contact Us</a>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary col-12 bg-dark">
+    <div class="div-nav container-fluid">
+      <img class="col-2" src="../images/LogoAmazingEvents.png" alt="Logo de la pagina">
+      <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+        <ul class="navbar-nav container-fluid d-flex justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Upcoming Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pastEvents.html">Past Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./stats.html">Stats</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-<main class="mainstast d-flex justify-content-center align-items-center">
-  <table>
+  </nav>
+
+
+<main class="mainstast d-flex justify-content-center align-items-center flex-column">
+  <h1 class="d-flex justify-content-center bg-oscuro-sutil">STATS</h1>
+  <table class="">
         <tr>
           <th colspan="3">Events statistics</th>
         </tr>

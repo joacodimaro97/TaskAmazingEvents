@@ -15,68 +15,74 @@
 </head>
 
 <body>
-  <header class="col-12">
-    <img class="imgnav" src="./images/LogoAmazingEvents.png" alt="logo-de-la-img">
-    <nav>
-        <a class="buta" href="#">Home</a>
-        <a class="buta" href="./pages/upcomingEvents.html">Upcoming Events</a>
-        <a class="buta" href="./pages/pastEvents.html">Past Events</a>
-        <a class="buta"  href="./pages/contact.html">Contact Us</a>
-        <a class="buta" href="./pages/stats.html">Stats</a>
-    </nav>
-</header>
 
-  <div id="carouselExample" class="carousel slide centrar">
-    <div class="carousel-inner alto d-flex justify-content-center align-items-center">
-      <div class="carousel-item active marginCero ">
-        <a class="anchorcarro" href="#">Home</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary col-12 bg-dark">
+      <div class="div-nav container-fluid">
+        <img class="col-2" src="./images/LogoAmazingEvents.png" alt="Logo de la pagina">
+        <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+          <ul class="navbar-nav container-fluid d-flex justify-content-around">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/upcomingEvents.html">Upcoming Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/pastEvents.html">Past Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/stats.html">Stats</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./pages/upcomingEvents.html">Upcoming Events</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./pages/pastEvents.html">Past Events</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./pages/contact.html">Contact Us</a>
-      </div>
-      <div class="carousel-item marginCero ">
-        <a class="anchorcarro" href="./pages/stats.html">Stats</a>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    </nav>
+
+
+
 
 <main class="mainindex">
 
+<h1 class="d-flex justify-content-center bg-oscuro-sutil">HOME</h1>
+
 <div class="formcontain">
   <form action="#" method="get" class="form1">
+    <fieldset>
       <input type="checkbox" name="category" id="check">
-      <label for="check">Food Fair</label>
+      <label class="label1" for="check">Food Fair</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Museum</label>
+      <label class="label1" for="check">Museum</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Costume Party</label>
+      <label class="label1" for="check">Costume Party</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Music Concert</label>
+      <label class="label1" for="check">Music Concert</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Race</label>
+      <label class="label1" for="check">Race</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Book Exchange</label>
+      <label class="label1" for="check">Book Exchange</label>
+    </fieldset>
+    <fieldset>
       <input type="checkbox" name="check">
-      <label for="check">Let's go to the cinema</label>
+      <label class="label1" for="check">Let's go to the cinema</label>
+    </fieldset>
   </form>
 
   <form action="#" class="form2">
     <input type="search" name="search" id="sr" placeholder="Search..." class="search">
-    <button class="btn lupa btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal "></i></button>
+    <button class="btn-lupa btn lupa btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal "></i></button>
   </form>
 </div>
 
@@ -169,7 +175,7 @@
 </section>
 </main>
 
-<footer>
+<footer class="col-12">
   <div class="redescont">
     <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
     <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a>
