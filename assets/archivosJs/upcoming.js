@@ -89,7 +89,7 @@ function filtraTexto(array, texto){
     return array
   } else{
     let textoMinuscula = texto.toLowerCase()
-    return array.filter(newCard => newCard.name.toLowerCase().includes(textoMinuscula) || newCard.description.toLowerCase().includes(textoMinuscula))
+    return array.filter(array => array.name.toLowerCase().includes(textoMinuscula) || array.description.toLowerCase().includes(textoMinuscula))
   }
 }
 
@@ -103,6 +103,7 @@ function filtrarPorCategoria(array, categorias){
 }
 
 $buscador.addEventListener('input', (e) => {
+  const categoriaSeleccionada = Array.from(document.querySelectorAll('input[type="checkbox"]:checked')).map(check => check.name)
   const cartasFiltradas = filtroCruzado(newCard, categoriaSeleccionada, $buscador.value)
   pasarAPantalla(cartasFiltradas)
 })

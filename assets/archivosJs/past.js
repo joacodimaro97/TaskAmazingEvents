@@ -81,7 +81,7 @@ function filtraTexto(array, texto){
     return array
   } else{
     let textoMinuscula = texto.toLowerCase()
-    return array.filter(newCard => newCard.name.toLowerCase().includes(textoMinuscula) || newCard.description.toLowerCase().includes(textoMinuscula))
+    return array.filter(array => array.name.toLowerCase().includes(textoMinuscula) || array.description.toLowerCase().includes(textoMinuscula))
   }
 }
 
